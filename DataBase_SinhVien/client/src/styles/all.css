@@ -1,0 +1,30 @@
+:root {
+  --accept-color: #efefef;
+  --cancel-color: #ff4f4f;
+  --field-color: #1bb0ff;
+  --subField-color: #afebff;
+  --backgroundContent-color: rgb(255, 255, 255);
+  --border-color: #666;
+  --hover-color: rgba(0, 0, 0, 0.075);
+  --button-hover-color: #979797
+}
+
+* {
+  font-family: "Roboto", sans-serif !important;
+}
+
+select {
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #666;
+}
+
+button {
+  border-radius: 4px;
+  border: 0;
+}
+input {
+  border-radius: 4px;
+  padding-left: 5px;
+  border: 1px solid #666;
+}

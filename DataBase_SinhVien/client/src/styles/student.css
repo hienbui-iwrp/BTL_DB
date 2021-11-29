@@ -1,0 +1,174 @@
+.student {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 59.4px);
+}
+
+.student-header {
+    margin-top: 20px;
+    position: relative;
+    left: 60%;
+    height: 50px;
+    width: max-content;
+}
+
+.student-header > input {
+    padding-left: 20px;
+}
+
+.student-header > select {
+    background: transparent;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.student-list {
+    height: calc(100% - 70px);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.student-list td > input {
+    width: 100%;
+}
+
+.student-list > table {
+    box-sizing: border-box;
+}
+
+.student-list table tr th:nth-child(1),
+.student-list table tr td:nth-child(1) {
+    width: 8%;
+}
+.student-list table tr th:nth-child(2),
+.student-list table tr td:nth-child(2) {
+    width: 8%;
+}
+.student-list table tr th:nth-child(3),
+.student-list table tr td:nth-child(3) {
+    width: 8%;
+}
+.student-list table tr th:nth-child(4),
+.student-list table tr td:nth-child(4) {
+    width: 9%;
+}
+.student-list table tr th:nth-child(5),
+.student-list table tr td:nth-child(5) {
+    width: 10%;
+}
+
+.student-list table tr th:nth-child(6),
+.student-list table tr td:nth-child(6) {
+    text-align: center;
+    width: 8%;
+}
+
+.student-list table tr th:nth-child(7),
+.student-list table tr td:nth-child(7) {
+    width: 35%;
+}
+.student-list table tr th:nth-child(8),
+.student-list table tr td:nth-child(8) {
+    text-align: center;
+    width: 7%;
+}
+.student-list table tr th:nth-child(9),
+.student-list table tr td:nth-child(9) {
+    text-align: center;
+    width: 7%;
+}
+.student-list table tr th:nth-child(10),
+.student-list table tr td:nth-child(10) {
+    text-align: center;
+    width: 7%;
+}
+
+.popup-content {
+    width: max-content !important;
+    border-radius: 5px !important;
+}
+
+.schedule {
+    width: 700px;
+    height: 450px;
+    margin: auto;
+    overflow-y: auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.schedule > table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.teacher-list {
+    height: calc(100% - 70px);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.teacher-list table {
+    box-sizing: border-box;
+}
+.teacher-list td > input {
+    width: 100%;
+}
+.teacher-list table tr th:nth-child(1),
+.teacher-list table tr td:nth-child(1) {
+    width: 9%;
+}
+.teacher-list table tr th:nth-child(2),
+.teacher-list table tr td:nth-child(2) {
+    width: 8%;
+}
+.teacher-list table tr th:nth-child(3),
+.teacher-list table tr td:nth-child(3) {
+    width: 8%;
+}
+.teacher-list table tr th:nth-child(4),
+.teacher-list table tr td:nth-child(4) {
+    width: 10%;
+}
+.teacher-list table tr th:nth-child(5),
+.teacher-list table tr td:nth-child(5) {
+    text-align: center;
+    width: 8%;
+}
+
+.teacher-list table tr th:nth-child(6),
+.teacher-list table tr td:nth-child(6) {
+    width: 20%;
+}
+
+.teacher-list table tr th:nth-child(7),
+.teacher-list table tr td:nth-child(7) {
+    text-align: center;
+    width: 8%;
+}
+.teacher-list table tr th:nth-child(8),
+.teacher-list table tr td:nth-child(8) {
+    width: 20%;
+}
+.teacher-list table tr th:nth-child(9),
+.teacher-list table tr td:nth-child(9) {
+    text-align: center;
+    width: 8%;
+}
+
+select {
+    height: 28px;
+}
+
+button {
+    height: 28px;
+    width: max-content;
+}
+
+table thead {
+    background-color: var(--field-color);
+}
